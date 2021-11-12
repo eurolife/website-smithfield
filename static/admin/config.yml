@@ -1,26 +1,32 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+local_backend: true
+logo_url: static/images/logo.svg
 publish_mode: editorial_workflow
-media_folder: 'public/images' # Media files will be stored in the repo under public/images/uploads
+media_folder: 'static/images' # Media files will be stored in the repo under public/images/uploads
 public_folder: '/images' # The src attribute for uploaded media will begin with /images/uploads
+media_library:
+  name: uploadcare
 collections:
   - name: 'latest' # Used in routes, e.g., /admin/collections/blog
-    label: 'Blog' # Used in the UI
+    label: 'Latest' # Used in the UI
     folder: 'src/routes/latest' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{title}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    media_folder: '../../../static/images/{{title}}'
+    public_folder: '../../../images/{{title}}'
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'latest' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
+      - { label: 'Featured Image', name: 'thumb', widget: 'image' }
       - {
           label: 'Topics',
           name: 'topics',
           widget: 'select',
           multiple: true,
-          options: ['Blog', 'Article', 'News'],
+          options: ['Blog', 'News'],
         }
       - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
       - { label: 'Author', name: 'author', widget: 'string' }

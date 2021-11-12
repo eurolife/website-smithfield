@@ -43,3 +43,9 @@ The site is hosted and setup to auto deploy to [Netlify](https://www.netlify.com
 ## Support
 
 For anything else please contact [support@smithfield.studio](mailto:support@smithfield.studio), thanks!
+
+## Run Netlify CMS locally:
+
+To run the CMS locally while developing, run `npx netlify-cms-proxy-server`
+
+Then go to http://localhost:3000/admin/index.html
