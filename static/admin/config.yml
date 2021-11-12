@@ -19,7 +19,7 @@ collections:
           label: 'Topics',
           name: 'topics',
           widget: 'select',
-          options: ['Blog', 'Article'],
+          options: ['Blog', 'Article', 'News'],
         }
       - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
       - { label: 'Author', name: 'author', widget: 'string' }
