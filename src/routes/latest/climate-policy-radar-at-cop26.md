@@ -3,7 +3,7 @@ layout: latest
 title: Climate Policy Radar  at COP26
 slug: climate-policy-radar-at-cop26
 date: 29 October 2021
-thumb: /images/climate-policy-radar-at-cop26/thumb.png
+thumb: thumb.png
 topics:
   - News
 excerpt: We are going to Glasgow for COP26, and we'll be taking part in some

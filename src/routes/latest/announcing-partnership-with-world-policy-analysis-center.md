@@ -4,7 +4,7 @@ title: Announcing partnership with WORLD Policy Analysis Center
 topics: ['News']
 date: 2 November 2021
 excerpt: We are excited to announce today that Climate Policy Radar is partnering with WORLD Policy Analysis Center.
-thumb: /images/announcing-partnership-with-world-policy-analysis-center/thumb.jpg
+thumb: thumb.jpg
 author: Michal Nachmany
 featured: false
 ---
