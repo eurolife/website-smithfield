@@ -1,10 +1,14 @@
 ---
 layout: latest
 title: Climate Policy Radar  at COP26
-topics: ['News']
+slug: climate-policy-radar-at-cop26
 date: 29 October 2021
-excerpt: We are going to Glasgow for COP26, and we'll be taking part in some exciting events and conversations about data, AI and evidence-based climate policy, sharing our vision and collecting inspiration, new ideas and allies..
-thumb: thumb.png
+thumb: /images/climate-policy-radar-at-cop26/thumb.png
+topics:
+  - News
+excerpt: We are going to Glasgow for COP26, and we'll be taking part in some
+  exciting events and conversations about data, AI and evidence-based climate
+  policy, sharing our vision and collecting inspiration, new ideas and allies..
 featured: true
 ---
 
@@ -32,7 +36,7 @@ Speakers:
 
 **Harnessing machine learning to enhance evidence-based climate policy & investment**
 
-*How do we radically scale collection and analysis of data, equipping decision-makers with rich, high quality, insight-enabling data? What is needed to fill critical knowledge gaps that currently inhibit our ability to learn (and share) effective policy pathways to a low carbon, resilient and desirable future?*
+_How do we radically scale collection and analysis of data, equipping decision-makers with rich, high quality, insight-enabling data? What is needed to fill critical knowledge gaps that currently inhibit our ability to learn (and share) effective policy pathways to a low carbon, resilient and desirable future?_
 
 Speakers:
 
@@ -63,7 +67,7 @@ Speakers:
 
 ### Wednesday 10 November 2021, 3:10-4pm | New York Times Climate Hub, Glasgow (in-person and online)
 
-**The New York Times Debate: Democratic Leaders are Better Prepared to Address Climate Change than Authoritarian Ones** 
+**The New York Times Debate: Democratic Leaders are Better Prepared to Address Climate Change than Authoritarian Ones**
 
 Teams and judges:
 

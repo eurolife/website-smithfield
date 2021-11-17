@@ -13,8 +13,8 @@ collections:
     folder: 'src/routes/latest' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-    media_folder: '../../../static/images/{{slug}}'
-    public_folder: '../../../images/{{slug}}'
+    media_folder: 'static/images/{{slug}}'
+    public_folder: '/images/{{slug}}'
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'latest' }
       - { label: 'Title', name: 'title', widget: 'string' }
