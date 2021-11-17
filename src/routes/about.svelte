@@ -12,10 +12,22 @@
   import IconList from '$lib/Components/IconList.svelte';
   import IconListItem from '$lib/Components/IconListItem.svelte';
 
+  async function getTeam() {
+    let response = await fetch("./src/data/about.json");
+    let aboutInfo = await response.json();
+    const { team } = aboutInfo;
+    return team;
+  }
+  const promise = getTeam();
+
+ 
+
   $theme = {
     footer: 'light',
     header: 'dark',
   };
+
+
 </script>
 
 <svelte:head>
@@ -88,5 +100,12 @@
 <Spacer size="lg" />
 
 <section id="team">
-  <Team />
+  {#await promise}
+    <p>Loading...</p>
+  {:then team}
+    <Team members={team} />
+  {:catch error}
+    <p style="color: red">{error.message}</p>
+  {/await}
+  
 </section>

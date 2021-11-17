@@ -1,10 +1,13 @@
 ---
 layout: latest
-title: Announcing Climate Policy Radar - on a mission to map and analyse the global climate policy landscape
-topics: ['Blog']
+title: Announcing Climate Policy Radar - on a mission to map and analyse the
+  global climate policy landscape
+slug: announcing-climate-policy-radar
 date: 10 February 2021
+thumb: ../../../images/announcing-climate-policy-radar-on-a-mission-to-map-and-analyse-the-global-climate-policy-landscape/thumb.png
+topics:
+  - Blog
 excerpt: The renewed and growing political will to combat climate change is encouraging.
-thumb: thumb.png
 author: Michal Nachmany
 featured: false
 ---

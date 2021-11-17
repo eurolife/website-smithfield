@@ -17,10 +17,10 @@
 
 <div class="c-card c-card--team" class:has-bio={bio} on:click={handleClick}>
   <div class="c-card__media">
-    {#if image.filename}
+    {#if image.src}
       <img
         class="c-card__image"
-        src={`/images/team/${image.filename}`}
+        src={`/${image.src}`}
         alt={image.alt}
         width={image.width}
         height={image.height}

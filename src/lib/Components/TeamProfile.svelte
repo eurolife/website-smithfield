@@ -6,10 +6,10 @@
 
 <article class="c-team-profile">
   <div class="c-team-profile__media">
-    {#if person.image.filename}
+    {#if person.image.src}
       <img
         class="c-team-profile__image"
-        src={`/images/team/${person.image.filename}`}
+        src={`/${person.image.src}`}
         alt={person.image.alt}
         width={person.image.width}
         height={person.image.height}

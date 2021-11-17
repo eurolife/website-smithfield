@@ -37,6 +37,7 @@
   onMount(() => {
     handleFilter('Team');
   });
+  export let members;
 </script>
 
 <div class="b-team">
@@ -56,9 +57,9 @@
         {/each}
       </div>
     </Heading>
-
+    
     <CardsGrid columnsTiny="1" columnsMobile="2" columnsTablet="3" columnsDesktop="4">
-      {#each $teamMembers as person}
+      {#each members as person}
         <CardTeam
           name={person.name}
           role={person.role}
